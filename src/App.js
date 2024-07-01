@@ -1,10 +1,10 @@
-import Card from "../src/Components/SwiperCard";
-import './App.css';
+import React from 'react';
+import Carousel from './Components/Carousel'
 
 function App() {
   return (
-    <div className="App">
-     <Card/>
+    <div>
+      <Carousel />
     </div>
   );
 }
